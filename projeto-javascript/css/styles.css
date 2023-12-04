@@ -1,0 +1,61 @@
+.btn-calc {
+    padding: 2.5em;
+    margin: 0.8em;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 15%;
+    background-color: rgb(202, 200, 200);
+
+}
+
+.btn-operador {
+    background-color: rgb(159, 236, 236);
+
+}
+
+.btn-total {
+    background-color: rgb(102, 102, 201);
+
+}
+
+.visor {
+    padding: 2em;
+    margin: 0.1em;
+    font-size: 3em;
+    font-family: 'Roboto Mono', monospace;
+    border-style: smooth;
+    border-color: black;
+    background-color: rgb(100, 143, 100);
+
+}
+
+h1 {
+    color: rgb(102, 102, 201);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
+}
+
+#calculadora {
+    background-color: rgb(100, 100, 100);
+
+
+}
+
+#visor-calculadora {
+    display: flex;
+    background-color: black;
+    padding: 2em;
+    flex-flow: row-reverse;
+    flex-wrap: wrap;
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+}
+
+#valor-visor-calculadora {
+    font-size: 2em;
+    color: white;
+    width: 100%;
+}
